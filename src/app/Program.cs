@@ -1,4 +1,5 @@
 ﻿using System;
+using SimpleSiteCompiler.Commands;
 
 namespace SimpleSiteCompiler
 {
@@ -6,6 +7,8 @@ namespace SimpleSiteCompiler
     {
         static void Main(string[] args)
         {
+            var commandParser = new CommandParser();
+
             Console.WriteLine("Hello World!");
             Console.ReadKey();
         }

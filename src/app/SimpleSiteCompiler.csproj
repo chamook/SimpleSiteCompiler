@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\CommandParser.cs" />
+    <Compile Include="Commands\CommandParserMessage.cs" />
+    <Compile Include="Commands\CommandParserMessageStatus.cs" />
+    <Compile Include="Commands\CommandParserResult.cs" />
+    <Compile Include="Commands\CommandParserStatus.cs" />
+    <Compile Include="Commands\ICommandParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
